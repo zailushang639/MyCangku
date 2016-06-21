@@ -15,6 +15,7 @@
 		66D539071D139A7400AD61D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D539051D139A7400AD61D4 /* LaunchScreen.storyboard */; };
 		66D539121D139A7400AD61D4 /* erWeiMaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D539111D139A7400AD61D4 /* erWeiMaTests.m */; };
 		66D5391D1D139A7400AD61D4 /* erWeiMaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D5391C1D139A7400AD61D4 /* erWeiMaUITests.m */; };
+		66D5392B1D139B8A00AD61D4 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D5392A1D139B8A00AD61D4 /* CoreImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		66D539181D139A7400AD61D4 /* erWeiMaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = erWeiMaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66D5391C1D139A7400AD61D4 /* erWeiMaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = erWeiMaUITests.m; sourceTree = "<group>"; };
 		66D5391E1D139A7400AD61D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66D5392A1D139B8A00AD61D4 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66D5392B1D139B8A00AD61D4 /* CoreImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		66D538EB1D139A7400AD61D4 = {
 			isa = PBXGroup;
 			children = (
+				66D5392A1D139B8A00AD61D4 /* CoreImage.framework */,
 				66D538F61D139A7400AD61D4 /* erWeiMa */,
 				66D539101D139A7400AD61D4 /* erWeiMaTests */,
 				66D5391B1D139A7400AD61D4 /* erWeiMaUITests */,
